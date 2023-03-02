@@ -8,7 +8,7 @@ function Achicar(){
 }
 document.getElementById("imagen").addEventListener("click",function(){
     if (document.getElementById("imagen").style.height < 700) {
-        if (window.screen.height > 700){  /*Evaluo que la imagen no sea mayor al tamaño de la pantalla*/
+        if (window.screen.width > 700){  /*Evaluo que la imagen no sea mayor al tamaño de la pantalla*/
             Agrandar();
         }
     }else {
